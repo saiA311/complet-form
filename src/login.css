@@ -1,0 +1,24 @@
+.login {
+  width: 100%;
+  height: 100%;
+}
+.login_form-container {
+  background-color: white;
+  width: 30%;
+  height: 40vh;
+  box-shadow: 0 0 10px 12px rgba(0, 0, 0, 0.596);
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_form-container > form {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  flex-direction: column;
+}
+.login_form-container > form > * {
+  margin-top: 20px;
+}
